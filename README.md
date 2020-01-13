@@ -38,3 +38,7 @@ The app defines following REST APIs.
 
 The app will use H2 running at <http://localhost:8080/h2>.
 
+
+## test data script
+```bash
+sh ./src/main/resource/script/curlData.sh

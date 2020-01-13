@@ -1,0 +1,3 @@
+curl -X POST 'http://localhost:8080/api/v1/contact' -H 'content-type:application/json' -d '{ "firstName":"Eli", "lastName":"Cooper", "emailAddress":"eli.cooper@gmail.com","homePhone":"555-232-2222","mobilePhone":"555-321-1122"}'
+curl -X POST 'http://localhost:8080/api/v1/contact' -H 'content-type:application/json' -d '{ "firstName":"Amy", "lastName":"French", "emailAddress":"afrench@email.com","homePhone":"555-322-2222","mobilePhone":"555-321-1212"}'
+curl -X POST 'http://localhost:8080/api/v1/contact' -H 'content-type:application/json' -d '{ "firstName":"Richie", "lastName":"Micenberg", "emailAddress":"richie@yahoo.com","homePhone":"555-223-2222","mobilePhone":"555-321-2112"}'
